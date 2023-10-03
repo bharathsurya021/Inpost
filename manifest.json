@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "InPost",
+    "version": "1.0",
+    "description": "InPost Search is a powerful browser extension designed to extract posts data from LinkedIn. Simply enter a hashtag, and let us Search find and organize profile URLs and content summaries for you.",
+    "permissions": ["activeTab","scripting","storage","tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "images/icon48.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+   
+  }
+  

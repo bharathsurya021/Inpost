@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>InPost</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Inpost</h1>
+      <p style="text-align: center; font-size: 16px">
+        Search hashtag,extract profiles and their post summaries
+      </p>
+      <div class="search-container">
+        <label for="numPages">Search Keyword:</label>
+        <input
+          type="text"
+          placeholder="Enter a keyword to search"
+          id="searchKeyword"
+        />
+        <button id="searchButton">Search keyword</button>
+      </div>
+      <div class="page-container">
+        <label for="numPages">Number of Pages:</label>
+        <input type="number" id="numPages" min="10" value="10" />
+        <button id="extractButton">Extract Data</button>
+      </div>
+      <textarea id="output" rows="10" cols="50"></textarea>
+      <a id="downloadLink" style="display: none">Download CSV</a>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
